@@ -19,13 +19,13 @@ Dataset:
 [dupPR]: Reference paper: Yu, Yue, et al. "A dataset of duplicate pull-requests in github." Proceedings of the 15th International Conference on Mining Software Repositories. ACM, 2018. (link: http://yuyue.github.io/res/paper/DupPR-msr2017.pdf)
 <including: 2323 Duplicate PR pairs in 26 repos>
 
-[dupPR for training set](https://github.com/FancyCoder0/INTRUDE/blob/master/data/clf/first_msr_pairs.txt)
+[dupPR for training set]https://github.com/lyl098yst/DDC-GMN/blob/main/data/clf/first_msr_pairs.txt)
 
-[dupPR for testing set](https://github.com/FancyCoder0/INTRUDE/blob/master/data/clf/second_msr_pairs.txt)
+[dupPR for testing set](https://github.com/lyl098yst/DDC-GMN/blob/main/data/clf/second_msr_pairs.txt)
 
-[Non-duplicate PRs for training set](https://github.com/FancyCoder0/INTRUDE/blob/master/data/clf/first_nondup.txt)
+[Non-duplicate PRs for training set](https://github.com/lyl098yst/DDC-GMN/blob/main/data/clf/first_nondup.txt)
 
-[Non-duplicate PRs for testing set](https://github.com/FancyCoder0/INTRUDE/blob/master/data/clf/second_nondup.txt)
+[Non-duplicate PRs for testing set](https://github.com/lyl098yst/DDC-GMN/blob/main/data/clf/second_nondup.txt)
 
 ---
 If you want to use our model quickly, you first need to obtain the data information `getData.py`, then use the obtained information to compose the graph     `getGraph_remove.py`, and use the composed graph to train the `gmn/train.py`, finally use the trained model to test `gmn/getResult.py` 
