@@ -1,0 +1,2 @@
+model_checkpoint_path: "lyl.GMN-103"
+all_model_checkpoint_paths: "lyl.GMN-103"
