@@ -147,7 +147,7 @@ def get_feature_vector(data, label, renew=False, out=None):
 
     print('all=', len(all_pr))
 
-    out_file = open(out + '_X_and_Y.txt', 'w+')
+    # out_file = open(out + '_X_and_Y.txt', 'w+')
     #
     for r in p:
 
@@ -179,7 +179,7 @@ def get_feature_vector(data, label, renew=False, out=None):
             X.extend(result)
             y.extend([label for i in range(len(result))])
 
-    out_file.close()
+    # out_file.close()
 
     # save to local
     localfile.write_to_file(X_path, X)
