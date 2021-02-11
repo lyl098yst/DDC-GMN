@@ -34,7 +34,7 @@ If you want to use our model quickly, you first need to obtain the data informat
   
     `python getData.py GMN 50000`
     
-    (It will generate eight .txt files which include all data for getGraph as following,第二个参数表示这是GMN模型,第三个参数表示用于训练的负标签的数据集大小)
+    (It will generate eight .txt files which include all data for getGraph as following,the second parameter indicates that this is a GMN model, and the third parameter indicates the data set size of the negative label used for training )
     `data/clf/first_msr_pairs_pull_info_X.txt`and`data/clf/first_msr_pairs_pull_info_y.txt`
     >Positive label data file for training 
     >
